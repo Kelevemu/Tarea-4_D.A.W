@@ -1,0 +1,60 @@
+/* Estilo global para el cuerpo de la página */
+body {
+    font-family: 'Arial', sans-serif; /* Fuente sencilla y profesional */
+    line-height: 1.6; /* Espaciado entre líneas */
+    background-color: #1B1B2F; /* Fondo oscuro */
+    color: #F8F9FA; /* Texto claro para buen contraste */
+    margin: 0; /* Quitar márgenes predeterminados */
+}
+
+/* Encabezado principal */
+header {
+    background: linear-gradient(90deg, #C084FC, #5D9CEC); /* Gradiente de colores púrpura y azul */
+    color: #F8F9FA; /* Texto claro */
+    padding: 20px 0; /* Espaciado vertical */
+    text-align: center; /* Centrar texto */
+    border-bottom: 3px solid #FF5E78; /* Línea de acento rosa */
+}
+
+/* Títulos de las secciones */
+h2 {
+    color: #C084FC; /* Púrpura vibrante */
+    margin-bottom: 15px; /* Espaciado inferior */
+}
+
+/* Estilo para las tarjetas */
+.card {
+    background-color: #232946; /* Fondo oscuro para las tarjetas */
+    border: 1px solid #5D9CEC; /* Borde azul */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación al pasar el ratón */
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Desplazamiento hacia arriba */
+    box-shadow: 0 6px 10px rgba(93, 156, 236, 0.6); /* Sombra más pronunciada */
+}
+
+.card-title {
+    color: #FF5E78; /* Títulos en rosa */
+}
+
+.card-text {
+    color: #F8F9FA; /* Texto en blanco */
+}
+
+/* Pie de página */
+footer {
+    background: #232946; /* Fondo oscuro */
+    color: #F8F9FA; /* Texto claro */
+    padding: 15px 0; /* Espaciado vertical */
+    text-align: center; /* Centrar contenido */
+}
+
+footer a {
+    color: #FF5E78; /* Enlaces en rosa */
+}
+
+footer a:hover {
+    color: #C084FC; /* Enlaces cambian a púrpura */
+}
